@@ -1,7 +1,7 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-git clone -b v44.1 https://gitlab.com/arcmenu/ArcMenu ./gnome-shell-extension-arcmenu
+git clone -b v51 https://gitlab.com/arcmenu/ArcMenu ./gnome-shell-extension-arcmenu
 cp -rvf ./debian ./gnome-shell-extension-arcmenu/
 cd ./gnome-shell-extension-arcmenu
 
